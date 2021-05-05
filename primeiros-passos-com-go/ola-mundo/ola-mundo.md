@@ -379,7 +379,7 @@ func Ola(nome string, idioma string) string {
         nome = "Mundo"
     }
 
-    if idioma == "Espanhol" {
+    if idioma == "espanhol" {
         return "Hola, " + nome
     }
 
