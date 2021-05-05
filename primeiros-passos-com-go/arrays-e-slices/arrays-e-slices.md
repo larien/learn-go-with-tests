@@ -97,7 +97,7 @@ Você pode estar pensando que é bastante complicado que arrays tenham tamanho f
 
 O Go tem _slices_, em que você não define o tamanho da coleção e, graças a isso, pode ter qualquer tamanho.
 
-O próprio requerimento será somar coleções de tamanhos variados.
+O próximo requerimento será somar coleções de tamanhos variados.
 
 ## Escreva o teste primeiro
 
@@ -260,7 +260,7 @@ func SomaTudo(numerosParaSomar ...[]int) (somas []int) {
 
 Pode tentar compilar, mas nossos testes não vão funcionar!
 
-`./soma_test.go:26:9: invalid operation: got != want (slice can only be compared to nil)`
+`./soma_test.go:26:9: invalid operation: resultado != esperado (slice can only be compared to nil)`
 
 `operação inválida: recebido != esperado (slice só pode ser comparado a nil`
 
